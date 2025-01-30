@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>assaignment-3_cata-001</title>
+  <!-- tailwind and desiy ui cdn-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- fontwasome cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- google fonts link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!-- styles -->
+   <style>
+    .adlam{
+      font-family: "ADLaM Display", serif;
+    }
+    .sora{
+      font-family: "Sora", serif;
+    }
+   </style>
 </head>
-<body>
-  
+<body class="adlam">
+  <header class="bg-[#FFF9F4] py-4">
+    <div class="navbar max-w-7xl mx-auto">
+      <div class="navbar-start">
+        <div class="flex items-center gap-1">
+          <img class="w-12 h-12" src="images/logo-header.png" alt="">
+          <button class="text-2xl">
+            <h2 class="sora text-2xl font-bold">Browse<span class="text-[#FFDC26]">4</span>Pets</h2></button>
+        </div>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+          <ul class="md:flex md:gap-7 px-1 text-lg sora">
+            <li><a href="#">Find a pet</a></li>
+            <li><a href="#">Breeds</a></li>
+            <li class=" mr-4"><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class=" items-center hidden lg:block">
+          <div class="flex space-x-3 items-center">
+            <div class="text-[#000000] space-x-3 text-[20px]">
+              <a href="">
+                <i class="fa-regular fa-bell"></i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </div>
+            <button class="sora border text-[20px] hover:text-white hover:bg-[#FFDC26] transition ease-in-out px-7 py-2 rounded-xl border-[#FFDC26]">Login</button>
+            <button class="sora text-[20px] bg-[#FFDC26] px-7 py-2 rounded-xl">Register</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="h-full">
+    <div></div>
+  </main>
+
 </body>
 </html>
