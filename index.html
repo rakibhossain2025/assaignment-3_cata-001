@@ -33,23 +33,23 @@
         <div class="flex items-center gap-1">
           <img class="w-12 h-12" src="images/logo-header.png" alt="">
           <button class="text-2xl">
-            <h2 class="sora text-2xl font-bold">Browse<span class="text-[#FFDC26]">4</span>Pets</h2></button>
+            <h2 class="sora text-2xl font-bold hidden lg:block">Browse<span class="text-[#FFDC26]">4</span>Pets</h2></button>
         </div>
       </div>
       <div class="navbar-center hidden lg:flex">
-          <ul class="md:flex md:gap-7 px-1 text-lg sora">
+          <ul class="md:flex md:gap-7 mr-2 px-1 text-lg sora">
             <li><a href="#">Find a pet</a></li>
             <li><a href="#">Breeds</a></li>
-            <li class=" mr-4"><a href="#">Contact us</a></li>
+            <li class=""><a href="#">Contact us</a></li>
         </ul>
       </div>
       <div class="navbar-end">
-        <div class="md:hidden">
-          <i class="fa-solid fa-bars"></i>
+        <div class="lg:hidden">
+          <i class="fa-solid fa-bars text-2xl"></i>
         </div>
         <div class=" items-center hidden lg:block">
           <div class="flex space-x-3 items-center">
-            <div class="text-[#000000] space-x-3 text-[20px]">
+            <div class="text-[#000000] lg:space-x-3 text-[20px]">
               <a href="">
                 <i class="fa-regular fa-bell"></i>
               </a>
@@ -62,11 +62,115 @@
         </div>
         </div>
       </div>
+    </div> 
+    <!-- banner  -->
+    <div class="bg-white">
+      <!-- top text here  -->
+      <div class="max-w-7xl flex flex-col mx-auto mb-10 w-11/12 overflow-hidden">
+        <div class="mt-10 z-20 space-y-4">
+          <h1 class="lg:text-5xl text-3xl text-blac lg:w-2/3">
+            Pamper Your Pet,<br> Because They Deserve<br> the Bes
+          </h1>
+          <p class="lg:w-2/3 lg:text-base text-sm sora">
+            Discover a world of treats, toys, and essentials handpicked for your furry friends. 
+            Shop now and make tails wag with joy!
+          </p>
+          <button class="bg-[#FFDC26] px-6 py-3 rounded-xl sora">
+            Find a pet
+          </button>
+        </div>
+        <div class="lg:-mt-32 -mt-10">
+          <img src="images/cat-big.png" alt="Cute pet">
+        </div>
+      </div>
     </div>
-  </header>
-  <main class="h-full">
-    <div></div>
-  </main>
+    <!-- banner end -->
+    </header>
+ <main class="space-y-20">
+   <!-- Trending Pet Products section -->
+    <div>
+      
+    </div>
+   <!-- Browse By Categories end -->
+   <div class=" bg-[#FFF9F4]">
+    <h3 class="w-11/12 mx-auto max-w-7xl">Trending Pet Products</h3>
+    <div class="lg:flex w-11/12 mx-auto max-w-7xl gap-4">
+      <div class="flex lg:w-1/3">
+        <div class="bg-[#F9DF8A] flex">
+          <div class="lg:w-1/2 space-y-4">
+            <h3 class="text-2xl ml-6">T- Shirt For Dogs</h3>
+            <p class=" ml-6">Discover a world of treats, toys, and 
+              essentials handpicked for </p>
+             <button class="ml-6">Shop Now</button>
+          </div>
+          <div class="w-1/2 relative">
+          <img class="w-[100%] absolute bottom-0 right-0" src="images/cute-pet-small.png" alt="">
+          </div>
+        </div>
+        <div>
+        </div>
+      </div>
+      <!-- reviews  -->
+      <div class="grid lg:grid-cols-3 grid-cols-2 lg:grid-rows-3 gap-6 lg:w-2/3 mt-6 lg:mt-0">
+        <!-- card mini  -->
+        <div class="bg-white flex rounded-xl border gap-4">
+          <div class="rounded-xl">
+            <img class="p-4" src="images/rabbit-cartoon.png" alt="">
+          </div>
+          <div>
+            <div class="flex sora gap-2 items-center">
+              <i class="fa-solid fa-star text-[#FFC107]"></i>
+              <p class="">4.5</p>
+            </div>
+            <h4 class="">Pet Bed</h4>
+            <p class="">$39.99</p>
+          </div>
+        </div>
+        <div class="bg-white flex rounded-xl border gap-4">
+          <div class="rounded-xl bg-transparent">
+            <img class="p-4" src="images/rabbit-cartoon.png" alt="">
+          </div>
+          <div>
+            <div class="flex sora gap-2 items-center">
+              <i class="fa-solid fa-star text-[#FFC107]"></i>
+              <p class="">4.5</p>
+            </div>
+            <h4 class="">Pet Bed</h4>
+            <p class="">$39.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+    <!-- end  -->
 
+    <!-- every day low price section -->
+     <div class="flex lg:flex-row flex-col gap-6 w-11/12 max-w-7xl mx-auto">
+      <div class="lg:w-[60%]  h-[325px] lg:h-auto flex justify-around bg-gradient-to-l to-[#F8CCFB] from-[#ACD2FD] items-center rounded-xl">
+        <!-- text conti  -->
+        <div class="space-y-3 ">
+         <p class="sora text-sm text-black hidden lg:block">Under Price</p>
+         <h3 class="text-2xl text-black">Pet Grooming Mitt</h3>
+         <p class="text-white text-xl hidden lg:block">(Easy Hair Removal)</p>
+         <h4 class="text-4xl text-black">$7.99</h4>
+        </div>
+        <div class="w-1/2 h-full right-0">
+          <img class="h-auto" src="images/cute-dog-mid.png" alt="">
+        </div>
+      </div>
+      <div class="lg:w-[40%] h-[325px] lg:h-auto flex bg-gradient-to-l to-[#FFF9F4] from-[#F9DF8A] rounded-xl">
+        <!-- text conti  -->
+        <div class="space-y-3 pt-10 pl-5 w-2/3">
+          <h3 class="text-black text-2xl">T-Shirt for Dogs</h3>
+          <h4 class="text-[#FFDC26] text-4xl">$7.99</h4>
+         </div>
+         <div class="self-end w-auto">
+           <img src="images/cute-pet-mid.png" alt="">
+          </div>
+      </div>
+     </div>
+    <!-- every day low price end -->
+  </main>
+  
 </body>
 </html>
