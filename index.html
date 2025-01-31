@@ -27,7 +27,7 @@
    </style>
 </head>
 <body class="adlam">
-  <header class="bg-[#FFF9F4] py-4">
+  <header class="bg-[#FFF9F4] py-4 lg:border-none border-b-2 border-gray-900">
     <div class="navbar max-w-7xl mx-auto">
       <div class="navbar-start">
         <div class="flex items-center gap-1">
@@ -63,36 +63,107 @@
         </div>
       </div>
     </div> 
-    <!-- banner  -->
-    <div class="bg-white">
-      <!-- top text here  -->
-      <div class="max-w-7xl flex flex-col mx-auto mb-10 w-11/12 overflow-hidden">
-        <div class="mt-10 z-20 space-y-4">
-          <h1 class="lg:text-5xl text-3xl text-blac lg:w-2/3">
+    </header>
+ <main class="space-y-20 mb-96 lg:mb-80">
+   <!-- banner  -->
+   <section class="bg-white">
+    <!-- top text here  -->
+    <div class="max-w-7xl flex flex-col mx-auto w-11/12 overflow-hidden">
+      <div class=" z-20 space-y-4">
+          <h1 class="lg:text-5xl text-3xl text-blac lg:w-2/3 animate-pulse">
             Pamper Your Pet,<br> Because They Deserve<br> the Bes
           </h1>
-          <p class="lg:w-2/3 lg:text-base text-sm sora">
-            Discover a world of treats, toys, and essentials handpicked for your furry friends. 
-            Shop now and make tails wag with joy!
-          </p>
-          <button class="bg-[#FFDC26] px-6 py-3 rounded-xl sora">
-            Find a pet
-          </button>
-        </div>
-        <div class="lg:-mt-32 -mt-10">
-          <img src="images/cat-big.png" alt="Cute pet">
-        </div>
+        <p class="lg:w-2/3 lg:text-base text-sm sora animate-bounce
+        ">
+          Discover a world of treats, toys, and essentials handpicked for your furry friends. 
+          Shop now and make tails wag with joy!
+        </p>
+        <button class="bg-[#FFDC26] px-6 py-3 rounded-xl sora">
+          Find a pet
+        </button>
+      </div>
+      <!-- img conti  -->
+      <div class="lg:-mt-80  -mt-20">
+        <img src="images/cat-big.png" alt="Cute pet">
       </div>
     </div>
-    <!-- banner end -->
-    </header>
- <main class="space-y-20">
-   <!-- Trending Pet Products section -->
-    <div>
-      
-    </div>
+  </section>
+  <!-- banner end -->
+   <!-- Browse By Categories start -->
+    <section class="mx-w-7xl mx-auto w-11/12">
+      <h3 class="text-4xl mb-5">Browse By Categories</h3>
+      <div class="grid grid-cols-2 lg:grid-cols-6 gap-5 ">
+        <div class=" bg-[#F9DF8A] py-10 rounded-xl text-center flex items-center flex-col">
+          <div>
+            <div>
+              <img class="p-4 bg-white rounded-full w-20 h-20" src="./images/dog-cartoon.png" alt="">
+            </div>
+            <div class="spact-y-2">
+              <h2 class="text-xl mt-2">Dog</h2>
+              <p class="sora text-sm">4 Items</p>
+            </div>
+          </div>
+        </div>
+        <div class=" bg-[#F9DF8A] py-10 rounded-xl text-center flex items-center flex-col">
+          <div>
+            <div>
+              <img class="p-3 bg-white rounded-full w-20 h-20" src="./images/fish-cartoon.png" alt="">
+            </div>
+            <div class="spact-y-2">
+              <h2 class="text-xl mt-2">Fish</h2>
+              <p class="sora text-sm">3 Items</p>
+            </div>
+          </div>
+        </div>
+        <div class=" bg-[#F9DF8A] py-10 rounded-xl text-center flex items-center flex-col">
+          <div>
+            <div>
+              <img class="p-3 bg-white rounded-full w-20 h-20" src="./images/bird-cartoon.png" alt="">
+            </div>
+            <div class="spact-y-2">
+              <h2 class="text-xl mt-2">Bird</h2>
+              <p class="sora text-sm">2 Items</p>
+            </div>
+          </div>
+        </div>
+        <div class=" bg-[#F9DF8A] py-10 rounded-xl text-center flex items-center flex-col">
+          <div>
+            <div>
+              <img class="p-4 bg-white rounded-full w-20 h-20" src="./images/cat-cartoon.png" alt="">
+            </div>
+            <div class="spact-y-2">
+              <h2 class="text-xl mt-2">Cat</h2>
+              <p class="sora text-sm">2 Items</p>
+            </div>
+          </div>
+        </div>
+        <div class=" bg-[#F9DF8A] py-10 rounded-xl text-center flex items-center flex-col">
+          <div>
+            <div>
+              <img class="p-3 bg-white rounded-full w-20 h-20" src="./images/mouse-cartoon.png" alt="">
+            </div>
+            <div class="spact-y-2">
+              <h2 class="text-xl mt-2">Small pet</h2>
+              <p class="sora text-sm">4 Items</p>
+            </div>
+          </div>
+        </div>
+        <div class=" bg-[#F9DF8A] py-10 rounded-xl text-center flex items-center flex-col">
+          <div>
+            <div>
+              <img class="p-3 bg-white rounded-full h-20 w-20" src="./images/rabbit-cartoon.png" alt="">
+            </div>
+            <div class="spact-y-2">
+              <h2 class="text-xl mt-2">Rabbit</h2>
+              <p class="sora text-sm">6 Items</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
    <!-- Browse By Categories end -->
-   <div class=" bg-[#FFF9F4]">
+   <!-- Trending Pet Products start -->
+   <section class=" bg-[#FFF9F4]">
     <h3 class="w-11/12 mx-auto max-w-7xl">Trending Pet Products</h3>
     <div class="lg:flex w-11/12 mx-auto max-w-7xl gap-4">
       <div class="flex lg:w-1/3">
@@ -141,36 +212,73 @@
         </div>
       </div>
     </div>
-   </div>
-    <!-- end  -->
-
-    <!-- every day low price section -->
-     <div class="flex lg:flex-row flex-col gap-6 w-11/12 max-w-7xl mx-auto">
-      <div class="lg:w-[60%]  h-[325px] lg:h-auto flex justify-around bg-gradient-to-l to-[#F8CCFB] from-[#ACD2FD] items-center rounded-xl">
-        <!-- text conti  -->
-        <div class="space-y-3 ">
+   </section>
+    <!-- Trending Pet Products end  -->
+    <!-- Everyday low Price start  -->
+    <section class="flex gap-3 w-11/12 mx-auto max-w-7xl">
+      <div class="w-[60%] rounded-2xl bg-gradient-to-l to-[#F8CCFB] from-[#ACD2FD]">
+       <div class="bg-[url('😁')]  p-4 bg-bottom bg-no-repeat ">
+        <p class="sora text-sm text-black hidden lg:block">Under Price</p>
+        <h3 class="text-2xl text-black">Pet Grooming Mitt</h3>
+        <p class="text-white text-xl hidden lg:block">(Easy Hair Removal)</p>
+        <h4 class="text-4xl text-black">$7.99</h4>
+       </div>
+      </div>
+      <!-- right  -->
+      <div class="w-[40%] h-[400px] rounded-2xl bg-gradient-to-l to-[#F8CCFB] from-[#ACD2FD]">
+        <div class="bg-[url('./images/cute-pet-mid.png')] w-full h-2/3 p-4 bg-right-bottom bg-no-repeat bg-contain">
          <p class="sora text-sm text-black hidden lg:block">Under Price</p>
          <h3 class="text-2xl text-black">Pet Grooming Mitt</h3>
          <p class="text-white text-xl hidden lg:block">(Easy Hair Removal)</p>
          <h4 class="text-4xl text-black">$7.99</h4>
         </div>
-        <div class="w-1/2 h-full right-0">
-          <img class="h-auto" src="images/cute-dog-mid.png" alt="">
+    </div>
+  </section>
+  </main>
+  <footer class="relative bg-[rgba(255,220,38,0.5)] py-10">
+    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[#FFF9F4] lg:p-6 p-3 rounded-lg w-[90%] max-w-7xl lg:flex items-center justify-center gap-7">
+      <div class="lg:w-1/3">
+        <img src="images/cute-pet-mid.png">
+      </div>
+      <div class="lg:w-2/3 space-y-4 text-center lg:text-left">
+        <h2 class="lg:text-3xl text-2xl">Get Aawsome News!</h2>
+      <p class="lg:text-base text-sm">Exclusive training tips, tricks, product deals and more.</p>
+      <input type="email" placeholder="Enter email..." class="outline-none sora rounded p-2 lg:w-2/3 w-11/12"><br>
+      <button class="bg-[#FFDC26] text-black px-4 py-2 rounded-xl sora ">Subscribe</button>
+      </div>
+    </div>
+    <div class="container mx-auto px-6 lg:mt-56 mt-80 sora">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- footer title  -->
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <img src="images/logo-footer.png" alt="">
+            <h2 class="text-2xl">Browse4Pets</h2>
+          </div>
+          <p class="text-sm">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </div>
+        <!-- footer link  -->
+        <div class="">
+          <ul class="space-y-3">
+            <li><a href="">Find a pet</a></li>
+            <li><a href="">Breeds</a></li>
+            <li><a href="">Contact us</a></li>
+          </ul>
+        </div>
+        <!-- footer social here  -->
+        <div>
+          <h4 class="text-sm font-bold mb-1">Follow Us</h4>
+          <!-- icon div  -->
+          <div class="space-x-2 text-xl text-black">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
         </div>
       </div>
-      <div class="lg:w-[40%] h-[325px] lg:h-auto flex bg-gradient-to-l to-[#FFF9F4] from-[#F9DF8A] rounded-xl">
-        <!-- text conti  -->
-        <div class="space-y-3 pt-10 pl-5 w-2/3">
-          <h3 class="text-black text-2xl">T-Shirt for Dogs</h3>
-          <h4 class="text-[#FFDC26] text-4xl">$7.99</h4>
-         </div>
-         <div class="self-end w-auto">
-           <img src="images/cute-pet-mid.png" alt="">
-          </div>
-      </div>
-     </div>
-    <!-- every day low price end -->
-  </main>
+    </div>
+  </footer>
   
 </body>
 </html>
